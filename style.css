@@ -149,7 +149,16 @@ footer p {
 }
 
 @media (max-width: 826px) {
+    main { 
+        width: 100%;
+    }
+
+    #app {
+        padding: 0;
+    }
+
     #app ul {
+        margin: 30px -25px;
         padding: 20px 20px;
     }
 
